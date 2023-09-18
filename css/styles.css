@@ -3,6 +3,11 @@ a, a:hover, a:focus, a:active {
   color: inherit;
 }
 
+ul, ol {
+  list-style: none;
+  margin: auto;
+}
+
 body {
   font-family: "Inter", sans-serif;
   color: #475467;
@@ -13,18 +18,17 @@ h1 {
 }
 
 header {
+  flex-wrap: wrap;
   font-weight: 600;
   font-size: 12pt;
-  padding: 10px 40px;
+  padding: 24px 64px;
   margin: 24px 80px;
   position: sticky;
   top: 0;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   z-index: 1;
-  gap: 0 60%;
   border-radius: 8px;
   background: var(--base-white, #FFF);
 }
@@ -43,11 +47,9 @@ header {
 
 .home-init {
   display: flex;
-  margin: 0;
 }
 
 .wed-info {
-  list-style: none;
   display: flex;
   gap: 32px;
 }
