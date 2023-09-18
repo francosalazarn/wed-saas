@@ -17,6 +17,7 @@
 }
 
 #venue-pic {
+    background-image: url(../img/Auchen-Castle-F-scaled.jpeg);
     width: 100%;
     position: absolute;
     top: 0;
@@ -34,3 +35,10 @@
     margin-bottom: 0px;
 }
 
+@media (max-width: 600px) {
+    #venue-pic {
+        height: 100%;
+    }
+
+    
+}

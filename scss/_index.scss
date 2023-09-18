@@ -45,7 +45,7 @@ header {
 }
 
 .margin-px-auto {
-    margin: 180px 240px;
+    margin: 176px 240px  104px;
 }
 
 .home-init {
@@ -119,4 +119,10 @@ hr {
 
 #typeform {
     opacity: 50%;
+}
+
+@media (max-width: 700px) {
+    .margin-px-auto {
+        margin: 176px 100px 104px;
+    }
 }

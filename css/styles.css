@@ -45,7 +45,7 @@ header {
 }
 
 .margin-px-auto {
-  margin: 180px 240px;
+  margin: 176px 240px 104px;
 }
 
 .home-init {
@@ -117,6 +117,11 @@ hr {
   opacity: 50%;
 }
 
+@media (max-width: 700px) {
+  .margin-px-auto {
+    margin: 176px 100px 104px;
+  }
+}
 .venue-section {
   display: flex;
   flex-direction: column;
@@ -136,6 +141,7 @@ hr {
 }
 
 #venue-pic {
+  background-image: url(../img/Auchen-Castle-F-scaled.jpeg);
   width: 100%;
   position: absolute;
   top: 0;
@@ -151,6 +157,12 @@ hr {
 
 .section-title {
   margin-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+  #venue-pic {
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
