@@ -223,5 +223,10 @@ hr {
     height: 100%;
   }
 }
+@media (max-width: 1040px) {
+  .margin-px-venue {
+    margin: 176px 100px 216px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
