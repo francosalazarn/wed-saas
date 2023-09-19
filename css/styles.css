@@ -113,12 +113,32 @@ hr {
   opacity: 50%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1040px) {
   .margin-px-auto {
     margin: 176px 100px 104px;
   }
   h1 {
-    font-size: 24pt;
+    font-size: 22pt;
+    line-height: 30px;
+  }
+  .prompts-main {
+    font-size: 16pt;
+    margin-top: 40px;
+  }
+  footer {
+    padding: 0px 112px;
+  }
+}
+@media (max-width: 572px) {
+  #credit {
+    text-align: center;
+    margin-top: 16px;
+  }
+  #typeform {
+    text-align: center;
+  }
+  footer {
+    justify-content: center;
   }
 }
 .venue-section {
@@ -154,11 +174,15 @@ hr {
   flex-wrap: wrap;
 }
 
+.margin-px-venue {
+  margin: 176px 240px 216px;
+}
+
 .section-title {
   margin-bottom: 0px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   #venue-pic {
     height: 100%;
   }

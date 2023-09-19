@@ -31,11 +31,16 @@
     flex-wrap: wrap;
 }
 
+.margin-px-venue {
+    margin: 176px 240px 216px;
+
+}
+
 .section-title {
     margin-bottom: 0px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
     #venue-pic {
         height: 100%;
     }
