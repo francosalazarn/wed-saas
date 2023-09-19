@@ -1,5 +1,9 @@
 .padding-card-area {
-    padding: 0 24px;
+    padding: 0 40px;
+}
+
+.margin-px-gifts {
+    margin: 176px 240px 214px;
 }
 
 .gift-area {
@@ -20,6 +24,10 @@
     flex-direction: column;
     align-items: center;
     gap: 12px;
+}
+
+.card {
+    border-color: $secondary-gray;
 }
 
 .gift-info {
@@ -70,6 +78,7 @@
 
 .btn {
     padding: 12px 20px;
+    margin-bottom: 16px;
 }
 
 
@@ -77,4 +86,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 1280px) {
+    .margin-px-gifts {
+        margin: 176px 100px 214px;
+    }
+}
+
+@media (max-width: 848px) {
+    .gift-area {
+        grid-template-areas: 
+        "giftmain"
+        "gift1" 
+        "gift2"
+        "gift3" 
+        "gift4";
+    }
+}
+
+@media (max-width: 584px) {
+    .margin-px-gifts {
+        margin: 64px 40px 214px;
+        }
+    .gift-name {
+        font-size: 20pt;
+    }
+    .gift-desc {
+        font-size: 12pt;
+    }
 }
