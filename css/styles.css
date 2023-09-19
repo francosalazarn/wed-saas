@@ -15,18 +15,44 @@ body {
 
 header {
   flex-wrap: wrap;
-  font-weight: 600;
-  font-size: 12pt;
-  padding: 24px 64px;
-  margin: 24px 80px;
   position: sticky;
   top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
+  font-weight: 600;
+  font-size: 12pt;
+  padding: 24px 64px;
+  margin: 24px 80px;
   border-radius: 8px;
   background: var(--base-white, #FFF);
+}
+
+.navbar-expand-lg {
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: #475467;
+}
+
+.nav__wed {
+  font-weight: 600;
+  font-size: 12pt;
+  padding: 16px 48px;
+  margin: 24px 80px;
+  border-radius: 8px;
+  background: var(--base-white, #FFF);
+}
+
+.navbar-collapse {
+  flex-grow: 0;
 }
 
 .content-main {
@@ -46,6 +72,10 @@ header {
 
 .home-init {
   display: flex;
+}
+
+.initial {
+  padding: 0px 2px;
 }
 
 .wed-info {
@@ -113,6 +143,12 @@ hr {
   opacity: 50%;
 }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 2rem;
+    padding-right: 0rem;
+  }
+}
 @media (max-width: 1040px) {
   .margin-px-auto {
     margin: 176px 100px 104px;
