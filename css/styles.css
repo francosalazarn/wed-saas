@@ -181,6 +181,10 @@ hr {
     justify-content: center;
   }
 }
+.padding-card-area {
+  padding: 0 24px;
+}
+
 .gift-card {
   flex-direction: column;
   align-items: center;
