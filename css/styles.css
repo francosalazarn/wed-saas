@@ -181,6 +181,67 @@ hr {
     justify-content: center;
   }
 }
+.gift-card {
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.gift-info {
+  text-align: center;
+}
+
+.gift-name {
+  font-size: 24pt;
+  font-weight: 600;
+}
+
+.gift-desc {
+  font-size: 12pt;
+}
+
+.gift-goal {
+  font-size: 12pt;
+}
+
+.prog-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 24px;
+}
+
+.progress-bar {
+  background-color: #475467;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #475466;
+  --bs-btn-border-color: #475467;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #475467;
+  --bs-btn-hover-border-color: #475467;
+  --bs-btn-focus-shadow-rgb: 13,110,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #475467;
+  --bs-btn-active-border-color: #475467;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #475467;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #475467;
+  --bs-gradient: none;
+}
+
+.btn {
+  padding: 12px 20px;
+}
+
+.gift-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .venue-section {
   display: flex;
   flex-direction: column;
@@ -216,7 +277,7 @@ hr {
 }
 
 .margin-px-venue {
-  margin: 176px 240px 216px;
+  margin: 176px 240px 214px;
 }
 
 .section-title {
@@ -230,7 +291,7 @@ hr {
 }
 @media (max-width: 1040px) {
   .margin-px-venue {
-    margin: 176px 100px 216px;
+    margin: 176px 100px 214px;
   }
 }
 
