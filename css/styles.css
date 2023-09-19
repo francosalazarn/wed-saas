@@ -49,6 +49,7 @@ header {
   margin: 24px 80px;
   border-radius: 8px;
   background: var(--base-white, #FFF);
+  z-index: 1;
 }
 
 .navbar-collapse {
@@ -183,6 +184,17 @@ hr {
 }
 .padding-card-area {
   padding: 0 24px;
+}
+
+.gift-area {
+  display: grid;
+  grid-template-areas: "giftmain giftmain" "gift1 gift2" "gift3 gift4";
+  row-gap: 16px;
+  column-gap: 16px;
+}
+
+#gift-main {
+  grid-area: giftmain;
 }
 
 .gift-card {
