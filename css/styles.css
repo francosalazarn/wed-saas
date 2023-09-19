@@ -165,13 +165,17 @@ hr {
     padding: 0px 112px;
   }
 }
-@media (max-width: 572px) {
+@media (max-width: 584px) {
   #credit {
     text-align: center;
     margin-top: 16px;
+    margin-left: 17px;
+    margin-right: 17px;
   }
   #typeform {
     text-align: center;
+    margin-right: 17px;
+    margin-left: 17px;
   }
   footer {
     justify-content: center;
