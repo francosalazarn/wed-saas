@@ -80,6 +80,13 @@
     }
     
     .pad-marg-accom {
+        margin: 80px 40px 104px;
+        }
+}
+
+@media (max-width: 414px) {
+    
+    .pad-marg-accom {
         margin: 80px 0px 104px;
         }
 }
