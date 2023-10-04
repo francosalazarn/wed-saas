@@ -69,7 +69,10 @@ header {
 }
 
 .margin-px-auto {
-  margin: 176px 240px 104px;
+  margin-top: 176px;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-bottom: 104px;
 }
 
 .home-init {
@@ -117,15 +120,12 @@ footer {
   padding-top: 32px;
 }
 
-hr {
+.prompt-div {
   border: none;
   background-color: #475467;
   display: flex;
   flex: 0 0 100%;
   opacity: 30% !important;
-}
-
-.prompt-div {
   height: 5px;
   width: 22px;
   margin-left: 8px;
@@ -133,6 +133,11 @@ hr {
 }
 
 .foot-div {
+  border: none;
+  background-color: #475467;
+  display: flex;
+  flex: 0 0 100%;
+  opacity: 30% !important;
   height: 2px;
 }
 
@@ -187,8 +192,11 @@ hr {
   padding: 0 40px;
 }
 
-.margin-px-gifts {
-  margin: 176px 240px 214px;
+.margin-px-gift {
+  margin-top: 176px;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-bottom: 214px;
 }
 
 .gift-area {
@@ -269,8 +277,11 @@ hr {
 }
 
 @media (max-width: 1280px) {
-  .margin-px-gifts {
-    margin: 176px 100px 214px;
+  .margin-px-gift {
+    margin-top: 176px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 214px;
   }
 }
 @media (max-width: 848px) {
@@ -279,8 +290,11 @@ hr {
   }
 }
 @media (max-width: 584px) {
-  .margin-px-gifts {
-    margin: 176px 40px 214px;
+  .margin-px-gift {
+    margin-top: 176px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 214px;
   }
   .gift-name {
     font-size: 20pt;

@@ -2,8 +2,8 @@
     padding: 0 40px;
 }
 
-.margin-px-gifts {
-    margin: 176px 240px 214px;
+.margin-px-gift {
+    @include margin-px(176px, 240px, 214px);
 }
 
 .gift-area {
@@ -89,8 +89,9 @@
 }
 
 @media (max-width: 1280px) {
-    .margin-px-gifts {
-        margin: 176px 100px 214px;
+    .margin-px-gift {
+        @include margin-px(176px, 100px, 214px);
+
     }
 }
 
@@ -106,8 +107,8 @@
 }
 
 @media (max-width: 584px) {
-    .margin-px-gifts {
-        margin: 176px 40px 214px;
+    .margin-px-gift {
+        @include margin-px(176px, 40px, 214px);
         }
     .gift-name {
         font-size: 20pt;
